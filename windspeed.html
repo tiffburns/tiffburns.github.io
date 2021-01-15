@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Latitude Analysis</title>
+    <title>Windspeed</title>
     <!-- Bootstrap and Bootswatch CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css" integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
@@ -65,19 +65,13 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="box">
-                    <h1>Summary: Latitude vs. X</h1>
+                    <h1>Summary: Latitude vs. Windspeed</h1>
                     <br>
-                    <img id="home_page_left_png" class="responsive" src="assets/images/Fig1.png" alt="Latitude vs Temp">
-                    <P>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
-                    </p>
-                    <ul>
-                        <li>Temperature</li>
-                        <li>Cloudiness</li>
-                        <li>Wind Speed</li>
-                        <li>Humidity</li>
-                    </ul>
-                    <p> This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <img id="home_page_left_png" class="img-fluid" src="assets/images/Fig3.png" alt="Latitude vs Temp">
+                    <P>Differences in atmospheric pressure generate winds. At the Equator, the sun warms the water and land more than it does the rest of the globe. Warm equatorial air rises higher into the atmosphere and migrates toward the poles. This
+                        is a low-pressure system. At the same time, cooler, denser air moves over Earth’s surface toward the Equator to replace the heated air. This is a high-pressure system. Winds generally blow from high-pressure areas to low-pressure
+                        areas. </p>
+                    <p> Read more here: https://www.nationalgeographic.org/encyclopedia/wind/</p>
                 </div>
             </div>
             <div class="col-lg-4">
